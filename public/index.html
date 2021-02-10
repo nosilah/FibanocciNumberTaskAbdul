@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Test Task</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        #error {
+            color: rgb(255, 0, 0);
+        }
+
+        .invalid {
+            border-color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="width: 400px;">
+
+
+        <h2>Generate Fibonacci numbers</h2>
+        <form name="numberFibForm">
+            <input type="hidden" name="id" value="0" />
+            <div class="form-group">
+                <label for="number">Enter number</label>
+                <input class="form-control" name="number" placeholder="Enter  number" />
+                <span id="error"></span>
+            </div>
+            <div class="panel-body">
+                <button type="submit" class="btn btn-sm btn-primary">RUN</button>
+            </div>
+        </form>
+        <table class="table table-condensed table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Number Fibanocci </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
