@@ -105,7 +105,7 @@ app.listen(3000, function () {
 });
 
 /*
- *in thes function first find the index of fibonacci numbers by this frormula
+ *in this function first find the index of fibonacci numbers by this frormula
  *Fn = (((1 + 5 ** 0.5)/( 0.5))**n)/(5 ** 0.5)
  */
 
